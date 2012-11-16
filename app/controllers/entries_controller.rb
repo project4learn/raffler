@@ -10,7 +10,7 @@ class EntriesController < ApplicationController
   end
 
   def create
-    respond_with Entry.create(params[:id])
+    respond_with Entry.create(params[:entry])
   end
 
   def update
